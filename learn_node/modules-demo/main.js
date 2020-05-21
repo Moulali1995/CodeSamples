@@ -1,4 +1,4 @@
-const data=require('./service1.js.js')
+const data=require('./service1.js.js.js.js')
 const func=require("./service3")
 const ap=require("./service2")
 const serv4=require("./service4")
