@@ -1,0 +1,17 @@
+// Maths
+console.log(parseFloat(20 / 2))
+console.log(Math.floor(1 / 2))
+console.log(Math.ceil(1 / 2))
+console.log(parseInt(11 / 10))
+// Strings
+console.log(5 + '5')
+console.log('5' + 5)
+console.log(5 + 5 + '5' + 5)
+console.log('5' + 5 + 5)
+var x = (1 + 2).toString()
+console.log(x)
+console.log(x === 3)
+// typeof()
+console.log(typeof (10))
+console.log(typeof (x))
+console.log((1 / 2).toFixed(4))
