@@ -1,0 +1,15 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "writeStream.js",
+  "scripts": {
+    "start": "nodemon writeStream.js",
+    "start2": "nodemon transformStream.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
