@@ -1,0 +1,18 @@
+{
+  "name": "useful-libraries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chalk.js",
+  "scripts": {
+    "chalk": "node chalk.js",
+    "chokidar": "node chokidar.js",
+    "mkdirp":" node mkdirp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "chokidar": "^3.4.0",
+    "mkdirp": "^1.0.4"
+  }
+}
