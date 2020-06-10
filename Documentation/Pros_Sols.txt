@@ -155,7 +155,7 @@ my_variable : Snake Case => Used for variable at Python, PHP, etc.
 my-variable : Kebab Case => Used for css
 ________________________________________________________________________
 
-//kill process in windows
-netstat -ano | findstr :8080
-taskkill /PID typeyourPIDhere /F
+//kill process running on port in windows
+netstat -ano | findstr :<port>
+taskkill /PID <PID> /F
 ________________________________________________________________________
