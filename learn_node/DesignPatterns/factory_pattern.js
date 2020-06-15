@@ -14,8 +14,10 @@ return engineer;
 }
 
 const engineer = createEngineer()
+console.log(engineer);
+
 engineer.setSkill('JS','High');
 console.log(engineer.getSkill('JS'))
-console.log(engineer.getSkill())
+// console.log(engineer.getSkill())
 
 console.log(engineer.privateSkills)
