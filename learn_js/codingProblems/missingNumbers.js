@@ -4,6 +4,7 @@ const userIds = [100, 102, 105, 118, 119, 109, 120, 160, 151, 152];
 const missingIds = [];
 userIds.sort((a, b) => a - b);
 
+function approach1(){
 let j = 0;
 for (let i = 100; i <= 200; i++) {
   if (i <= userIds[j]) {
@@ -21,9 +22,11 @@ for (let i = 100; i <= 200; i++) {
   }
 }
 console.log(missingIds);
+}
 //#endregion
 
 //#region Approach 2
+function approach2(){
 var limit1 = 100,
   limit2 = 200;
 for (let i = 0; i < userIds.length - 1; i++) {
@@ -45,3 +48,7 @@ if (userIds[userIds.length - 1] < limit2) {
 console.log(missingIds);
 
 //#endregion
+}
+
+approach1();
+approach2();

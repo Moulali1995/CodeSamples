@@ -1,5 +1,5 @@
 var arr=[1,20,15,5];
-arr.sort() // doesn't work properly for numbers since they are converted into strings and then compared so 200< 50 since 2<5 simple and dumb
+arr.sort() // doesn't work properly for numbers since they are converted into strings and then compared so 200< 50 since 2<5 simple and WEIRD
 console.log(arr)
 arr.sort((a,b)=>a-b)// ascending
 console.log(arr)
