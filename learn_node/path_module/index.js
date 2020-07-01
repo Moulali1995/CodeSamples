@@ -51,8 +51,9 @@ console.log(
 // path.join(): /Users/stacycho/Desktop/users/stacycho
 console.log(
   "path.join():",
-  path.join(__dirname, "..", "..", "/users", ".", "/", "stacycho")
+  path.join(__dirname, "..", "..")
 );
+console.log(__dirname)
 // path.resolve(): /stacycho
 console.log(
   "path.resolve():",

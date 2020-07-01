@@ -159,3 +159,8 @@ ________________________________________________________________________
 netstat -ano | findstr :<port>
 taskkill /PID <PID> /F
 ________________________________________________________________________
+npm WARN tarball tarball data for @typescript-eslint/eslint-plugin@1.13.0 (sha512-WQHCozMnuNADiqMtsNzp96FNox5sOVpU8Xt4meaT4em8lOG1SrOv92/mUbEHQVh90sldKSfcOc/I0FOb/14G1g==) seems to be corrupted. Trying one more time.
+
+npm cache clear --force
+npm install
+________________________________________________________________________
