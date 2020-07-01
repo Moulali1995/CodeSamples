@@ -1,7 +1,7 @@
-function showAge(age){
-    return age;
+function showAge(age) {
+  return age;
 }
-function showName(name){
-    return name;
+function showName(name) {
+  return name;
 }
-module.exports={showAge,showName};
+module.exports = { showAge, showName };
