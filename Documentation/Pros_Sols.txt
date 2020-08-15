@@ -156,11 +156,27 @@ my-variable : Kebab Case => Used for css
 ________________________________________________________________________
 
 //kill process running on port in windows
-netstat -ano | findstr :<port>
+
+netstat -aon | findstr '80'
+tasklist | findstr '15724'
 taskkill /PID <PID> /F
 ________________________________________________________________________
 npm WARN tarball tarball data for @typescript-eslint/eslint-plugin@1.13.0 (sha512-WQHCozMnuNADiqMtsNzp96FNox5sOVpU8Xt4meaT4em8lOG1SrOv92/mUbEHQVh90sldKSfcOc/I0FOb/14G1g==) seems to be corrupted. Trying one more time.
 
 npm cache clear --force
 npm install
+________________________________________________________________________
+// *execute commands in docker containers
+> winpty docker exec -it redis redis-cli
+
+________________________________________________________________________
+
+// create a local branch from remote
+>git fetch origin 
+where origin is the name of the remote repository prior to running 
+>git checkout <remote_branch>
+________________________________________________________________________
+
+//access the container files
+>docker exec -it api-primary sh
 ________________________________________________________________________
