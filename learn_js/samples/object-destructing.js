@@ -30,4 +30,14 @@ console.log(d, others); // 1 [ 2, 3, 4 ] ->d=1, others=[ 2, 3, 4 ] using rest pa
 const [, , ...others2] = arr;
 console.log(others2); // [ 3, 4 ] -> skipping indexes
 
+
+let car={}
+car.name="laura" // dot notation
+car["company"]="skoda" // square bracket notation
+
+console.log(car['company'])
+console.log(car['name'])
+
+car["year of mfg"]=2020
+console.log(car["year of mfg"])
 //#endregion
