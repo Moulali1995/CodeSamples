@@ -73,3 +73,7 @@ dist/
 # webstorm
 .idea/
 *.iml
+
+# vscode
+*/.vscode
+.dccache
